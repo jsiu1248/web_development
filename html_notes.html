@@ -17,6 +17,23 @@ em and strong are not recommended anymore.
 
 Tag attributes - key/value
 
+Form
+- We can build the look of the form, but we need a programming language of the dynamics of the form.
+method="POST" - adding data to a database.
+GET - not as secure because you can see what data is being put in.
+
+text area - you can make it bigger or smaller.
+
+alt - Showing error in case it something doesn't get shown
+
+blockquote makes it centered
+abbr  - if you however over it then you see the whole word.
+
+What is a section supposed to do? I feel like it is similar to <p>
+
+id can help you keep track of things
+
+aside and small - more options to divide content
 
 -->
 <html>
@@ -31,6 +48,7 @@ Tag attributes - key/value
         <h3> This is the third heading</h3>
         <h4> This is the fourth heading</h4>
         <h5> This is the fifth heading</h5>
+        <abbr title="What is your Name?"> My name is John</abbr>
         <p>
             <a href="http://google.com" target="_blank">   Link that opens at another tag.</a>
         </p>
@@ -51,5 +69,23 @@ Tag attributes - key/value
 
                         </tr>>
         </table>
+
+        <br>
+        <form action="process.php", method="POST">
+            <label>First Name</label>
+            <input type="text" name="first-name">
+
+            <br>
+            <div>
+            <!--Select List-->
+            <label>Age</label>
+            <select name="age">
+                <option value="1000">1000</option>
+                <option value "1000000">100000</option>
+                </select>
+                </div>
+
+        </form>
+
     </body>
 </html>
